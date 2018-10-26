@@ -1,0 +1,4 @@
+cmake -H. -Bbuild -DCMAKE_INSTALL_PREFIX="/u/qzeng/project/my-psi4/install" \
+               -DCMAKE_PREFIX_PATH="/u/qzeng/QMSoftware/psi4-install" \
+          -DPYTHON_EXECUTABLE=/u/qzeng/miniconda3/bin/python \
+       -DMAX_AM_ERI=6 -DENABLE_gdma=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=debug -DENABLE_PCMSolver=ON 

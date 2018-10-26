@@ -1,0 +1,2 @@
+ conda install sphinx-psi-theme cloud_sptheme sphinx-automodapi graphviz python-graphviz memory_profiler deepdiff resp -c conda-forge -c psi4
+ /u/qzeng/miniconda3/bin/python -m pip install pytest
