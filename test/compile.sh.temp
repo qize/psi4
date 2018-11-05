@@ -1,0 +1,10 @@
+g++ dum.cpp -o dum -I ~/miniconda3/include/python3.5m -I /u/qzeng/project/my-psi4/install/include \
+  -L /u/qzeng/project/my-psi4/install/lib/psi4 -l:core.so \
+  -L /u/qzeng/miniconda3/lib -lpython3 \
+  -L /u/qzeng/project/my-psi4/build/psi4-core-prefix/src/psi4-core-build/src/psi4/libmints -lmints \
+  -L /u/qzeng/project/my-psi4/build/psi4-core-prefix/src/psi4-core-build/src/psi4/libpsi4util -lpsi4util \
+  -L ~/project/my-psi4/build/psi4-core-prefix/src/psi4-core-build/src/psi4/libqt -lqt \
+  -L /lib64 -llapack \
+  -L ~/project/my-psi4/build/psi4-core-prefix/src/psi4-core-build/src/psi4/libciomr -lciomr \
+  -Wl,-rpath=/u/qzeng/project/my-psi4/install/lib/psi4 \
+  -Wl,-rpath=/u/qzeng/miniconda3/lib
